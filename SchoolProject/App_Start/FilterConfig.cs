@@ -7,7 +7,6 @@ namespace SchoolProject
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            // start project
             filters.Add(new HandleErrorAttribute());
         }
     }
