@@ -15,5 +15,6 @@ namespace SchoolProject.Data.Models
         public string Phone { get; set; }
         public int CommunityId { get; set; }
         public Community Community { get; set; }
+        public ICollection<Journal> Journal { get; set; }
     }
 }

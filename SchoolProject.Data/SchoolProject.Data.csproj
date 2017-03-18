@@ -36,8 +36,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="Models\ClassRoom.cs" />
     <Compile Include="Models\Community.cs" />
+    <Compile Include="Models\Journal.cs" />
+    <Compile Include="Models\Lesson.cs" />
     <Compile Include="Models\Pupil.cs" />
+    <Compile Include="SchoolTask.cs" />
     <Compile Include="Models\Teacher.cs" />
     <Compile Include="TeacherPosition.cs" />
   </ItemGroup>

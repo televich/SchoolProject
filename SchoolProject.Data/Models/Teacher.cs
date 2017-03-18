@@ -14,6 +14,6 @@ namespace SchoolProject.Data.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public TeacherPosition Position { get; set; }
-        public ICollection<Community> Communities { get; set; }
+        public ICollection<Community> Community { get; set; }
     }
 }

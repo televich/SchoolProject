@@ -15,5 +15,6 @@ namespace SchoolProject.Data.Models
 
         public int TeacherId { get; set; }
         public Teacher Teacher { get; set; }
+        public Lesson Lesson { get; set; }
     }
 }
