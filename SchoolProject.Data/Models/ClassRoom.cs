@@ -10,7 +10,6 @@ namespace SchoolProject.Data.Models
     {
         public int ClassRoomId { get; set; }
         public string Number { get; set; }
-
-        public Lesson Lesson { get; set; }
+        public ICollection<Lesson> Lessons { get; set; }
     }
 }

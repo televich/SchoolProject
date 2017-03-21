@@ -9,9 +9,10 @@ namespace SchoolProject.Data.Models
     class Journal
     {
         public int JournalId { get; set; }
-        public short Mark { get; set; }
-
-        public ICollection<Pupil> Pupil { get; set; }
-        public ICollection<Lesson> Lesson { get; set; }
+        public byte Mark { get; set; }
+        public int PupilId { get; set; }
+        public Pupil Pupil { get; set; }
+        public int LessonId { get; set; }
+        public Lesson Lesson { get; set; }
     }
 }
